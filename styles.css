@@ -1,0 +1,106 @@
+/*GLOBAL STYLES*/
+main {
+  padding: 0px;
+  margin: 0px;
+}
+a:visited {
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navbar {
+  height: 100px;
+  background-color: brown;
+}
+
+.navbar-logo {
+  height: 100px;
+}
+
+.navbar-nav {
+  float: right;
+}
+
+.nav-item {
+  color: white;
+  float: left;
+  padding: 10px;
+  list-style: none;
+}
+
+.nav-item a:hover {
+  color: yellow;
+}
+
+.hero-img {
+  background-image: url("./img/hero.jpg");
+  height: 1000px;
+  width: 100%;
+  background-size: cover;
+}
+
+.contact-column {
+  width: 50%;
+  float: left;
+}
+.about-container {
+  height: 700px;
+  width: 100%;
+  margin-top: 120px;
+  margin-bottom: 20px;
+}
+
+.about-column {
+  width: 28%;
+  border: 2px solid black;
+  float: left;
+  padding: 25px 20px;
+  margin-left: 20px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.footer {
+  background-color: brown;
+  height: 100px;
+  width: 100%;
+  color: white;
+}
+
+.footer-item {
+  float: left;
+  margin-top: 50px;
+  margin-left: 100px;
+}
+
+.content-img {
+  height: 250px;
+  width: 400px;
+  background-image: url(./img/Serengeti_sunset-1001.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: inline-block;
+  position: relative;
+  top: 80px;
+  left: 150px;
+}
+
+.about-img {
+  height: 300px;
+  width: 250px;
+  margin: auto;
+}
+
+.content-para {
+  height: 300px;
+  width: 270px;
+  background-color: yellow;
+  position: relative;
+  top: 10px;
+  left: 400px;
+  display: inline-block;
+  font-family: "Oswald", sans-serif;
+}
